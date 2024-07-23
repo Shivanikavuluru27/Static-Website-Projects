@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.background-image {
+    width: 40vw;
+}
+
+.main-text {
+    text-align: center;
+    padding: 15px;
+}
+
+.main-heading {
+    font-family: "bree-serif";
+    color: #183b56;
+}
+
+.paragraph {
+    font-family: "bree-serif";
+    color: #616e76;
+    font-size: 19px;
+}
+
+.technology {
+    height: 30vh;
+    width: 30vw;
+    margin: 10px;
+}
+
+.diwali {
+    height: 30vh;
+    width: 30vw;
+    margin: 10px;
+}
+
+.food {
+    height: 30vh;
+    width: 30vw;
+    margin: 10px;
+}
+
+.papers {
+    height: 30vh;
+    width: 30vw;
+    margin: 10px;
+}
+
+.technology-card {
+    background-color: #ffffff;
+    height: 40vh;
+    text-align: left;
+    padding: 25px;
+}
+
+.technology-heading {
+    font-family: "bree-serif";
+    color: #5C5CFF;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.technology-paragraph {
+    font-family: "bree-serif";
+    font-size: 19px;
+}
+
+.technology-button {
+    font-size: 14px;
+    border-width: 0px;
+}
+
+.diwali-top-section {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
+    height: 30vh;
+    background-size: cover;
+}
+
+.diwali-top-section-heading {
+    color: white;
+    font-family: "Caveat";
+    font-size: 36px;
+    width: 200px;
+    padding: 20px;
+}
+
+.diwali-bottom-section {
+    text-align: center;
+    background-color: #e6f6ff;
+    padding: 15px;
+}
+
+.diwali-card-item {
+    text-align: center;
+    background-color: white;
+    width: 140px;
+    border-radius: 9px;
+    padding: 16px;
+    margin: 15px;
+}
+
+.diwali-card-image {
+    height: 64px;
+    width: 64px;
+}
+
+.diwali-card-name {
+    color: #616e7c;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.diwali-card-price {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bg-container {
+    background-image: url(" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    height: 108vh;
+    background-size: cover;
+}
+
+.order-card {
+    background-color: #f6c56e;
+    height: 40vh;
+    padding: 20px;
+    border-top-left-radius: 25px;
+
+}
+
+.main-heading {
+    font-family: "bree serif";
+    color: #323f4b;
+    font-size: 30px;
+}
+
+.paragraph {
+    font-family: "roboto";
+    font-size: 20px;
+}
+
+.button1 {
+    font-family: "roboto";
+    border-radius: 5px;
+    width: 136px;
+    border-width: 0px;
+    height: 40px;
+}
+
+.bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.card {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: #ffffff;
+    height: 48vh;
+    padding: 35px;
+}
+
+.paragraph1 {
+    font-size: 12px;
+    color: #7b8794;
+
+}
+
+.main-heading2 {
+    font-size: 20px;
+    color: #323f4b;
+}
+
+.paragraph {
+    color: #7b8794;
+    font-size: 15px;
+    text-align: left;
+}
+
+.button2 {
+    border-radius: 10px;
+    height: 40px;
+    width: 136px;
+    background-color: #323f4b;
+    color: #ffffff;
+    font-size: 12px;
+}
+</style>
+
+<body>
+    <div id="sectionHome">
+        <div class="main-text">
+            <div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="background-image" />
+            </div>
+            <h1 class="main-heading">My Projects</h1>
+            <p class="paragraph">These are the few of my static website projects that i have developed using HTML ,CSS and Bootstrap</p>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="technology" onclick="display('sectionAdvanced')" />
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" class="diwali" onclick="display('sectionDiwali')" />
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="food" onclick="display('sectionFood')" />
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="papers" onclick="display('sectionNews')" />
+        </div>
+    </div>
+    <div id="sectionAdvanced">
+        <div class="technology-card">
+            <h1 class="technology-heading">Advanced Technologies</h1>
+            <p class="technology-paragraph">Machinery and equipment developed from the application of scientific knowledge</p>
+            <button class="technology-button">learn more</button>
+            <button class="btn btn-primary" onclick=display('sectionHome')>back</button>
+        </div>
+    </div>
+    <div id="sectionDiwali">
+        <div class="diwali-top-section">
+            <h1 class="diwali-top-section-heading">
+                Celebrate Diwali with your friends
+            </h1>
+        </div>
+        <div class="diwali-bottom-section">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Diwali Air Balloon</h1>
+                    <p class="diwali-card-price">Rs 369</p>
+                </div>
+
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Diwali - Lamp</h1>
+                    <p class="diwali-card-price">Rs 50</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Sparklers</h1>
+                    <p class="diwali-card-price">Rs 150</p>
+                </div>
+
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Fire Cracker</h1>
+                    <p class="diwali-card-price">Rs 560</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionHome')">back</button>
+        </div>
+    </div>
+    <div id="sectionFood">
+        <div class="order-card">
+            <h1 class="main-heading">Happy Meals</h1>
+            <p class="paragraph">Discover the best foods over the 1,000 restraunts</p>
+            <button class="button1">book now</button>
+            <button class="btn btn-primary" onclick="display('sectionHome')">back</button>
+        </div>
+    </div>
+    </div>
+    <div id="sectionNews">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="card">
+                <p class="paragraph1">NEWS OF THE DAY</p>
+                <h1 class="main-heading2">iB Cricket announces world's first Virtual Reality Cricket League</h1>
+                <p class="paragraph">iB Cricket andViu together have announced the world's first virtual cricket league featuring 12 international cricketers.Who will be competing against each other for the iB Cricket Super League Over title in mumbai.Iconic cricketers like Virender Sehwag, Suresh Raina, Brendon McCullum will be competing in the league </p>
+                <button class="button2">Read more</button>
+                <button class="btn btn-primary" onclick="display('sectionHome')">back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
